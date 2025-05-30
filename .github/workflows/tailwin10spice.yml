@@ -25,7 +25,7 @@ jobs:
           sudo pip install gdown
           sudo python3 "/mnt/a.py"
           echo "Đang giải nén tất cả các file .zip trong /mnt..."
-          sudo unzip '/mnt/*.zip' -d /mnt/
+          echo "File ISO tải về: /mnt/tiny11.iso"
           echo "Đang khởi chạy máy ảo..."
           echo "Đã khởi động VM thành công và mở cổng 5900"
           tailscale ip -4
